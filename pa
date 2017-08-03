@@ -1,0 +1,5 @@
+pip install requests
+
+py -2 -m pip install requests
+
+https://zhuanlan.zhihu.com/p/21442500
