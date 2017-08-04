@@ -1,3 +1,5 @@
+sudo easy_install pip
+
 pip install requests
 
 py -2 -m pip install requests
