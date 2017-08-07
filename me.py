@@ -6,8 +6,9 @@ import re
 
 def getHTML(url):
     r = requests.get(url)
-    s = requests.session()
-    s.config['keep_alive'] = False
+    #s = requests.session()
+    #s.config['keep_alive'] = False
+    r.connection.close()
     return r.content
 
 def parseUrl(html,class_tag,url_tag):
